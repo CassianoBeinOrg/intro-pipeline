@@ -21,5 +21,10 @@ pipeline {
         }
       }
     }
+    stage('Deploy to staging ') {
+      steps {
+        echo 'Deploy done!'
+      }
+    }
   }
 }
